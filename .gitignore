@@ -1,0 +1,4 @@
+# local data repository
+data/
+# OS generated files
+**.DS_Store

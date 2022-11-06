@@ -18,3 +18,25 @@ The main goal of this competition is for you to gain knowledge on various machin
 
 The various features in the data corresponds to the pixel values of the images. The training and held-out test set
 for this data consists of 50,000 samples and 10,000 samples respectively.
+
+To regenerate the results:
+1. Download the data from Kaggle page and put inside data folder
+2. Install Dependencies using 
+```
+pip install -r requirements.txt
+```
+
+3. To retrain the model / follow the complete training pipeline, use train.py inside each model folder,
+e.g. to retrain CNN, use:
+```
+python CNN/train.py
+```
+    OR
+```
+python Ensembled\ CNN/train.py
+```
+
+4. To generate results, use:
+```
+python CNN/predict.py
+```

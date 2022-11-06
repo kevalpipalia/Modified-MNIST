@@ -1,4 +1,8 @@
 # local data repository
-data/
+data/test.csv
+data/train.csv
+data/train_result.csv
 # OS generated files
 **.DS_Store
+# python notebook checkpoints
+**/.ipynb_checkpoints/
